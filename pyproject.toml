@@ -1,0 +1,22 @@
+[project]
+name = "geofluids_project"
+version = "0.1.0"
+description = "Reactive Transport Modeling Project"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fipy>=3.4.4",
+    "gstools>=1.6.0",
+    "ipykernel>=6.29.0",
+    "jupyter>=1.0.0",
+    "matplotlib>=3.8.0",
+    "numpy>=2.1.0",
+    "scipy>=1.16.0",
+]
+
+[project.dependency-groups]
+dev = [
+    "pytest>=7.0",
+    "black>=24.0",
+    "ruff>=0.0",
+]

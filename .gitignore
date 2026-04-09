@@ -1,0 +1,5 @@
+# Ignore all .gz files
+*.gz
+
+# Or ignore the entire data folder
+data/
